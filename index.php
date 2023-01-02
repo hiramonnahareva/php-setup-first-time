@@ -7,6 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <?php echo 'hello php'; ?>
+    <?php echo 'hello php'; 
+
+    // add veriable
+
+    $food = 'pizza';
+    echo 'I love to eat ' . $food . '<br>'; 
+    $age = 10;
+    // $_age = 19;
+    echo 'My age is' . $age;
+    ?>
+
 </body>
 </html>
