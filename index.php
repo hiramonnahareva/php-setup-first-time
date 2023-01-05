@@ -60,8 +60,6 @@
      echo $sum;
 
     //   How to wirte object 
-    
-    
      echo(min(0, 15, 30, 50, 50, 85, 85, 17));
 
      class phone {
@@ -75,7 +73,30 @@
     $apple = new phone;
     $apple-> phoneModel('iphone 13');
 
+    //1. To Return the length of the string 
+
+    echo strlen('I love to eat pizza') . '<br>';
+
+    //2. Way to Count the number of word in the string
+
+    echo str_word_count('I love to eat pizza') . '<br>';
+
+    //3. strrev() function reverses a string.
     
+    echo strrev('I love to eat pizza');
+    
+    //4. str_replace() function replaces some characters with some other characters in a string.
+
+    echo str_replace("world", "Dolly", "Hello world!");
+
+
+    
+    // echo str_shuffle('I love to eat pizza') . '<br>';
+
+
+    // The pi() function returns the value of PI:
+
+    echo pi();
 
     ?>
 
