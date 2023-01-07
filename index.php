@@ -83,9 +83,10 @@
 
     //3. strrev() function reverses a string.
     
-    echo strrev('I love to eat pizza');
+    echo strrev('I love to eat pizza') . '<br>';
     
-    //4. str_replace() function replaces some characters with some other characters in a string.
+    /* 4. str_replace() function replaces some 
+    characters with some other characters in a string.  */
 
     echo str_replace("world", "Dolly", "Hello world!");
 
@@ -96,7 +97,24 @@
 
     // The pi() function returns the value of PI:
 
-    echo pi();
+    echo pi() . '<br>';
+
+    define('a', 19);
+    echo(a);
+
+    // How to define a constant on PHP
+
+    define('A', '17');
+    echo(A);
+    // How to define a array in constant variable
+
+    define('Laptop', [
+        'Lenovo',
+        'Asus',
+        'Apple',
+    ]);
+    var_dump(Laptop)
+    
 
     ?>
 
