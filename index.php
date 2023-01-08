@@ -108,9 +108,20 @@
 
     // The abs() function returns the absolute (positive) value of a number 
 
-    echo(abs(-5));  // returns 5
+    echo(abs(-5)) . '<br>';  // returns 5
 
+    // The sqrt() function returns the square root of a number 
 
+    echo(sqrt(64));  // returns 8
+
+    // The round() function rounds a floating-point number to its nearest integer 
+
+    echo(round(0.60));  // returns 1
+    echo(round(0.49));  // returns 0 
+
+    // The rand() function generates a random number 
+
+    echo(rand(10, 100));
 
 
 
