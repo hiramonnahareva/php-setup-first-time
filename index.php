@@ -167,22 +167,12 @@
         $x = 10.365;
         var_dump(is_float($x)); // returns boolean true
 
-
-
-
-
-
-
-
-
-
-
-
     // The pi() function returns the value of PI 
 
         echo(pi()) .'<br>'; // returns 3.1415926535898
 
-    // The min() and max() functions can be used to find the lowest or highest value in a list of arguments 
+   /* The min() and max() functions can be used to find
+     the lowest or highest value in a list of arguments  */
 
     echo(min(0, 1, 20, -8, -200));  // returns -200
     echo(max(0, 150, 30, 20, -8, -200)) . '<br>';  // returns 150
@@ -205,6 +195,13 @@
    echo(rand(10, 100));
 
 
+   $t = date("H");
+
+if ($t < "20") {
+  echo "Have a good day!";
+} else {
+  echo "Have a good night!";
+}
     
     
 
