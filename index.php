@@ -200,28 +200,34 @@
    $t = date("H");
 
 if ($t < "20") {
-  echo "Have a good day!";
+  echo "Have a good day!" . '<br>';
 } else {
-  echo "Have a good night!";
+  echo "Have a good night!" . '<br>';
 }
 
 $favcolor = "red";
 
 switch ($favcolor) {
   case "red":
-    echo "Your favorite color is red!";
+    echo "Your favorite color is red!" . '<br>';
     break;
   case "blue":
-    echo "Your favorite color is blue!";
+    echo "Your favorite color is blue!" . '<br>';
     break;
   case "green":
-    echo "Your favorite color is green!";
+    echo "Your favorite color is green!" . '<br>';
     break;
   default:
-    echo "Your favorite color is neither red, blue, nor green!";
+    echo "Your favorite color is neither red, blue, nor green!" . '<br>';
 }
-    
-    
+      
+$t = date("H");
+
+if ($t < "20") {
+  echo "Have a good day!" .'<br>';
+} else {
+  echo "Have a good night!" .'<br>';
+}
 
     ?>
 
