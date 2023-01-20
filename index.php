@@ -233,11 +233,29 @@ $cars = array("Volvo", "BMW", "Toyota");
 echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
 
 /* --------------- Operators ---------------- */
-echo 10 + 5 .'<br>';
-echo 10 - 5 .'<br>';
-echo 10 * 5 .'<br>';
-echo 10 / 5 .'<br>';
-echo 10 % 5 .'<br>';
+echo 10 + 5 .'<br>'; // 
+echo 10 - 5 .'<br>'; // 
+echo 10 * 5 .'<br>'; // 
+echo 10 / 5 .'<br>'; // 
+echo 10 % 5 .'<br>'; // Modulus
+$x = 2;
+$y = 3;
+
+/* --------- or ----------*/ 
+
+
+/* ----------------- PHP Arithmetic Operators ---------------- */
+
+$x  += $y; //$x = $x + $y; > Addition
+$x  -= $y; //$x = $x - $y; > Subtraction
+$x  *= $y; //$x = $x * $y; > Multiplication
+$x  /= $y; //$x = $x / $y; > Division
+$x  %= $y; //$x = $x % $y; > Division
+
+/* --------------- PHP Comparison Operators ---------------- */
+
+
+echo $x;
 
     ?>
 
