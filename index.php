@@ -261,28 +261,28 @@ echo $x;
 $x = 10;
 $y = 5;
 
-// // "=="	Equal	$x == $y	Returns true if $x is equal to $y	
-// var_dump($x == $y) //return false
+// "=="	Equal	$x == $y	Returns true if $x is equal to $y	
+var_dump($x == $y) //return false
 
-// // "==="	Identical	$x === $y	Returns true if $x is equal to $y, and they are of the same type	
-// var_dump($x === $y) //return false
+// "==="	Identical	$x === $y	Returns true if $x is equal to $y, and they are of the same type	
+var_dump($x === $y) //return false
 
-// // "!="	Not equal	$x != $y	Returns true if $x is not equal to $y	
-// var_dump($x != $y) //return true
+// "!="	Not equal	$x != $y	Returns true if $x is not equal to $y	
+var_dump($x != $y) //return true
 
-// // "!=="	Not identical	$x !== $y	Returns true if $x is not equal to $y, or they are not of the same type	
-// var_dump($x !== $y) //return true
+// "!=="	Not identical	$x !== $y	Returns true if $x is not equal to $y, or they are not of the same type	
+var_dump($x !== $y) //return true
 
-// // ">"	Greater than	$x > $y	Returns true if $x is greater than $y	
-// var_dump($x > $y) //return true
+// ">"	Greater than	$x > $y	Returns true if $x is greater than $y	
+var_dump($x > $y) //return true
 
-// // "<"	Less than	$x < $y	Returns true if $x is less than $y	
-// var_dump($x < $y) //return false
+// "<"	Less than	$x < $y	Returns true if $x is less than $y	
+var_dump($x < $y) //return false
 
-// // ">="	Greater than or equal to	$x >= $y	Returns true if $x is greater than or equal to $y	
-// var_dump($x >= $y) //return true
+// ">="	Greater than or equal to	$x >= $y	Returns true if $x is greater than or equal to $y	
+var_dump($x >= $y) //return true
 // "<="	Less than or equal to	$x <= $y	Returns true if $x is less than or equal t
-var_dump($x <= $y) //return true
+var_dump($x <= $y) //return  false
 
 
 
