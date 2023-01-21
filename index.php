@@ -263,15 +263,18 @@ $y = 5;
 
 // "=="	Equal	$x == $y	Returns true if $x is equal to $y	
 var_dump($x == $y) //return false
-
-// "==="	Identical	$x === $y	Returns true if $x is equal to $y, and they are of the same type	
+	/* 
+ "==="	Identical	$x === $y	Returns true if $x is equal to $y,
+  and they are of the same type  */
 var_dump($x === $y) //return false
 
 // "!="	Not equal	$x != $y	Returns true if $x is not equal to $y	
 var_dump($x != $y) //return true
 
-// "!=="	Not identical	$x !== $y	Returns true if $x is not equal to $y, or they are not of the same type	
+/*  "!=="	Not identical	$x !== $y	Returns true if $x is not equal to $y,
+ or they are not of the same type	 */
 var_dump($x !== $y) //return true
+
 
 // ">"	Greater than	$x > $y	Returns true if $x is greater than $y	
 var_dump($x > $y) //return true
@@ -279,10 +282,17 @@ var_dump($x > $y) //return true
 // "<"	Less than	$x < $y	Returns true if $x is less than $y	
 var_dump($x < $y) //return false
 
-// ">="	Greater than or equal to	$x >= $y	Returns true if $x is greater than or equal to $y	
+/* ">="	Greater than or equal to	$x >= $y	
+Returns true if $x is greater than or equal to $y	 */
 var_dump($x >= $y) //return true
-// "<="	Less than or equal to	$x <= $y	Returns true if $x is less than or equal t
+
+
+/* "<="	Less than or equal to	$x <= $y	Returns true if $x is less than or equal to */
 var_dump($x <= $y) //return  false
+
+$str = "Visit W3Schools";
+$pattern = "/w3schools/i";
+echo preg_match($pattern, $str); // Outputs 1
 
 
 
