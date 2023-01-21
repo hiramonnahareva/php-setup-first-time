@@ -237,25 +237,59 @@ echo 10 + 5 .'<br>'; //
 echo 10 - 5 .'<br>'; // 
 echo 10 * 5 .'<br>'; // 
 echo 10 / 5 .'<br>'; // 
-echo 10 % 5 .'<br>'; // Modulus
-$x = 2;
-$y = 3;
+echo 10 % 5 .'<br>'; // 
+
 
 /* --------- or ----------*/ 
 
 
-/* ----------------- PHP Arithmetic Operators ---------------- */
+/* -------- PHP Arithmetic Operators -------- */
 
-$x  += $y; //$x = $x + $y; > Addition
-$x  -= $y; //$x = $x - $y; > Subtraction
-$x  *= $y; //$x = $x * $y; > Multiplication
-$x  /= $y; //$x = $x / $y; > Division
-$x  %= $y; //$x = $x % $y; > Division
+$x = 10;
+$y = 5;
 
-/* --------------- PHP Comparison Operators ---------------- */
+$x  += $y; //$x = $x + $y; > Addition --->  return 15
+$x  -= $y; //$x = $x - $y; > Subtraction --->  return 5
+$x  *= $y; //$x = $x * $y; > Multiplication --->  return 10
+$x  /= $y; //$x = $x / $y; > Division --->  return 2
+$x  %= $y; //$x = $x % $y; > Modulus --->  return 0
+
+echo $x;  
+
+/* -------- PHP Comparison Operators -------- */
+
+$x = 10;
+$y = 5;
+
+// // "=="	Equal	$x == $y	Returns true if $x is equal to $y	
+// var_dump($x == $y) //return false
+
+// // "==="	Identical	$x === $y	Returns true if $x is equal to $y, and they are of the same type	
+// var_dump($x === $y) //return false
+
+// // "!="	Not equal	$x != $y	Returns true if $x is not equal to $y	
+// var_dump($x != $y) //return true
+
+// // "!=="	Not identical	$x !== $y	Returns true if $x is not equal to $y, or they are not of the same type	
+// var_dump($x !== $y) //return true
+
+// // ">"	Greater than	$x > $y	Returns true if $x is greater than $y	
+// var_dump($x > $y) //return true
+
+// // "<"	Less than	$x < $y	Returns true if $x is less than $y	
+// var_dump($x < $y) //return false
+
+// // ">="	Greater than or equal to	$x >= $y	Returns true if $x is greater than or equal to $y	
+// var_dump($x >= $y) //return true
+// "<="	Less than or equal to	$x <= $y	Returns true if $x is less than or equal t
+var_dump($x <= $y) //return true
 
 
-echo $x;
+
+
+
+
+
 
     ?>
 
