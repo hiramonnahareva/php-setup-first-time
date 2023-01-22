@@ -247,6 +247,7 @@ echo 10 % 5 .'<br>'; //
 
 $x = 10;
 $y = 5;
+$z = 10;
 
 $x  += $y; //$x = $x + $y; > Addition --->  return 15
 $x  -= $y; //$x = $x - $y; > Subtraction --->  return 5
