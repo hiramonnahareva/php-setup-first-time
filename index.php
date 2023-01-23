@@ -29,9 +29,6 @@
      $rivers = print $river;
      echo($rivers);
      $name = 'elma';
-     $name1 = "it's me";
-     $name4 = 'nima';
-     $name6 = "it's another one";
      var_dump ($name);
     //  
      $age = 20;
