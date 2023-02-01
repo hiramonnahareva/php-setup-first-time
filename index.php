@@ -315,6 +315,12 @@ var_dump($x >= $y); //return true
 /* "<="	Less than or equal to	$x <= $y	Returns true if $x is less than or equal to */
 var_dump($x <= $y); //return  false
 
+<?php
+$date=date_create("2013-03-15");
+date_add($date,date_interval_create_from_date_string("40 days"));
+echo date_format($date,"Y-m-d");
+?>
+
 
 
 
