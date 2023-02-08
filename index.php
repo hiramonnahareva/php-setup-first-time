@@ -319,6 +319,11 @@ if(!isset($_COOKIE[$cookie_name])) {
   echo "Value is: " . $_COOKIE[$cookie_name];
 }
 
+// Set session variables
+$_SESSION["favcolor"] = "green";
+$_SESSION["favanimal"] = "cat";
+echo "Session variables are set.";
+
 
 
 
