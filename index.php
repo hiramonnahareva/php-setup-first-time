@@ -368,5 +368,14 @@ for ($x = 0; $x <= 10; $x++) {
   echo "The number is: $x <br>";
 }
 
+function divide($dividend, $divisor) {
+  if($divisor == 0) {
+    throw new Exception("Division by zero");
+  }
+  return $dividend / $divisor;
+}
+
+echo divide(5, 0);
+
 </body>
 </html>
