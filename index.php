@@ -368,6 +368,14 @@ for ($x = 0; $x <= 10; $x++) {
   echo "The number is: $x <br>";
 }
 
+$jsonobj = '{"Peter":35,"Ben":37,"Joe":43}';
+
+$obj = json_decode($jsonobj);
+
+echo $obj->Peter;
+echo $obj->Ben;
+echo $obj->Joe;
+
 function divide($dividend, $divisor) {
   if($divisor == 0) {
     throw new Exception("Division by zero");
