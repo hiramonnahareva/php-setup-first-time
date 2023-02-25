@@ -304,37 +304,6 @@ echo "This ", "string ", "was ", "made ", "with multiple parameters.";
 
 
 
-
-
-interface InterfaceName {
-  public function someMethod1();
-  public function someMethod2($name, $color);
-  public function someMethod3() : string;
-}
-
-if(!isset($_COOKIE[$cookie_name])) {
-  echo "Cookie named '" . $cookie_name . "' is not set!";
-} else {
-  echo "Cookie '" . $cookie_name . "' is set!<br>";
-  echo "Value is: " . $_COOKIE[$cookie_name];
-}
-
-// Set session variables
-$_SESSION["favcolor"] = "green";
-$_SESSION["favanimal"] = "cat";
-echo "Session variables are set.";
-
-
-
-
-    ?>
-
-    <form action="welcome.php" method="post">
-Name: <input type="text" name="name"><br>
-E-mail: <input type="text" name="email"><br>
-<input type="submit">
-</form>
-
 $servername = "localhost";
 $username = "username";
 $password = "password";
@@ -384,6 +353,37 @@ function divide($dividend, $divisor) {
 }
 
 echo divide(5, 0);
+
+
+interface InterfaceName {
+  public function someMethod1();
+  public function someMethod2($name, $color);
+  public function someMethod3() : string;
+}
+
+if(!isset($_COOKIE[$cookie_name])) {
+  echo "Cookie named '" . $cookie_name . "' is not set!";
+} else {
+  echo "Cookie '" . $cookie_name . "' is set!<br>";
+  echo "Value is: " . $_COOKIE[$cookie_name];
+}
+
+// Set session variables
+$_SESSION["favcolor"] = "green";
+$_SESSION["favanimal"] = "cat";
+echo "Session variables are set.";
+
+
+
+
+    ?>
+
+    <form action="welcome.php" method="post">
+Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>
+<input type="submit">
+</form>
+
 
 </body>
 </html>
