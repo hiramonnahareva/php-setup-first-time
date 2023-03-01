@@ -376,6 +376,9 @@ echo "Session variables are set.";
 
 
 
+
+
+
     ?>
 
     <form action="welcome.php" method="post">
