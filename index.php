@@ -373,8 +373,8 @@ $_SESSION["favcolor"] = "green";
 $_SESSION["favanimal"] = "cat";
 echo "Session variables are set.";
 
-check
-
+git marge try ..
+merge conflict
 
 
 
