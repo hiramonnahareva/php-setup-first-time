@@ -375,7 +375,7 @@ echo "Session variables are set.";
 
 git marge try ..
 merge conflict
-
+merge conflict
 
 
 
