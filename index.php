@@ -392,6 +392,21 @@ if (filter_var($int, FILTER_VALIDATE_INT, array("options" => array("min_range"=>
 } else {
   echo("Variable value is within the legal range");
 }
+<!-- 	PHP Constructor -->
+	class Fruit {
+  public $name;
+  public $color;
+
+  function __construct($name) {
+    $this->name = $name;
+  }
+  function get_name() {
+    return $this->name;
+  }
+}
+
+$apple = new Fruit("Apple");
+echo $apple->get_name();
 ?>
 
 
