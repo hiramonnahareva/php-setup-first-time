@@ -372,6 +372,15 @@ if(!isset($_COOKIE[$cookie_name])) {
 $_SESSION["favcolor"] = "green";
 $_SESSION["favanimal"] = "cat";
 echo "Session variables are set.";
+
+
+    ?>
+
+    <form action="welcome.php" method="post">
+Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>
+<input type="submit">
+</form>
 // PHP Filters Advanced
 	
 	$int = 122;
