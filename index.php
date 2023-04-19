@@ -94,6 +94,17 @@
     // echo str_shuffle('I love to eat pizza') . '<br>';
  
 
+// 	PHP Filter
+	
+	$int = 122;
+$min = 1;
+$max = 200;
+
+if (filter_var($int, FILTER_VALIDATE_INT, array("options" => array("min_range"=>$min, "max_range"=>$max))) === false) {
+  echo("Variable value is not within the legal range");
+} else {
+  echo("Variable value is within the legal range");
+}
 
     
     // The pi() function returns the value of PI:
@@ -124,16 +135,12 @@
     echo(rand(10, 100));
 
 
-
-
-
 $servername = "localhost";
 $username = "username";
 $password = "password";
 $dbname = "myDB";
 
     
-
     // How to define a constant on PHP
 
     define('A', '17');
@@ -152,9 +159,6 @@ $dbname = "myDB";
 
 
     // var_dump(Laptop)
-
-
-
 
 
 
@@ -372,26 +376,6 @@ if(!isset($_COOKIE[$cookie_name])) {
 $_SESSION["favcolor"] = "green";
 $_SESSION["favanimal"] = "cat";
 echo "Session variables are set.";
-
-
-    ?>
-
-    <form action="welcome.php" method="post">
-Name: <input type="text" name="name"><br>
-E-mail: <input type="text" name="email"><br>
-<input type="submit">
-</form>
-// PHP Filters Advanced
-	
-	$int = 122;
-$min = 1;
-$max = 200;
-
-if (filter_var($int, FILTER_VALIDATE_INT, array("options" => array("min_range"=>$min, "max_range"=>$max))) === false) {
-  echo("Variable value is not within the legal range");
-} else {
-  echo("Variable value is within the legal range");
-}
 <!-- 	PHP Constructor -->
 	class Fruit {
   public $name;
@@ -407,6 +391,8 @@ if (filter_var($int, FILTER_VALIDATE_INT, array("options" => array("min_range"=>
 
 $apple = new Fruit("Apple");
 echo $apple->get_name();
+
+
 ?>
 
 
