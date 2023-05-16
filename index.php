@@ -160,6 +160,14 @@ $dbname = "myDB";
 
     // var_dump(Laptop)
 
+	// The pi() function returns the value of PI:
+
+    echo pi() . '<br>'; // returns 3.1415926535898
+
+    define('a', 19) . '<br>';
+    echo(a) . '<br>';
+    echo(min(0, 150, 30, 20, -8, -200)) . '<br>';  // returns -200
+    echo(max(0, 150, 30, 20, -8, -200)) . '<br>';  // returns 150
 
 
     # Number
