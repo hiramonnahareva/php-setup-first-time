@@ -139,6 +139,28 @@ $servername = "localhost";
 $username = "username";
 $password = "password";
 $dbname = "myDB";
+	
+	
+    //1. To Return the length of the string 
+
+    echo strlen('I love to eat pizza') . '<br>';
+
+    //2. Way to Count the number of word in the string
+
+    echo str_word_count('I love to eat pizza') . '<br>';
+
+    //3. strrev() function reverses a string.
+    
+    echo strrev('I love to eat pizza') . '<br>';
+    
+    /* 4. str_replace() function replaces some 
+    characters with some other characters in a string.  */
+
+    echo str_replace("world", "Dolly", "Hello world!");
+    
+    // echo str_shuffle('I love to eat pizza') . '<br>';
+ 
+
 
     
     // How to define a constant on PHP
@@ -245,6 +267,7 @@ if ($t < "20") {
 $cars = array("Volvo", "BMW", "Toyota");
 echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
 
+	
 /* --------------- Operators ---------------- */
 echo 10 + 5 .'<br>'; // 
 echo 10 - 5 .'<br>'; // 
