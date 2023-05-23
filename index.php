@@ -425,6 +425,23 @@ echo $apple->get_name();
 
 
 ?>
+	
+	<?php
+class ClassName {
+  public static function staticMethod() {
+    echo "Hello World!";
+  }
+}
+	
+	class greeting {
+  public static function welcome() {
+    echo "Hello World!";
+  }
+}
+
+// Call static method
+greeting::welcome();
+?>
 
 
 </body>
