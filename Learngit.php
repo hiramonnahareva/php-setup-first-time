@@ -9,3 +9,5 @@ if (filter_var($int, FILTER_VALIDATE_INT, array("options" => array("min_range"=>
   echo("Variable value is within the legal range");
 }
 ?>
+
+
